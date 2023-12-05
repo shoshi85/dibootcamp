@@ -1,0 +1,45 @@
+
+body{
+    background-color:white;
+}
+p{
+    border-style: ridge;
+    border-color:yellow;
+    border-width: 10px;
+}
+ #pictur2{
+    width: 150px;
+    height:100px;
+}
+#pictur3{
+    width: 150px;
+    height: 100px;
+}
+#pictur{
+    width: 150px;
+    height: 100px;
+}
+p:hover{
+    background-color:green
+}
+#toto:hover{
+    background-color:grey;
+}
+img{
+    background-color:black;
+    padding: 5px;
+}
+h1:hover{
+font-size: 50px;
+}
+strong{
+    text-align: left;
+}
+.lolo{
+    border-style: ridge;
+    border-color: bisque;
+    transition: 1s;
+}
+.lolo:hover{
+transform: scale(1.1);
+}
