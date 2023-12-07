@@ -1,0 +1,31 @@
+body{
+   background-color: aqua;
+}
+h1{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: blanchedalmond;
+    overflow-y: scroll;
+    transition: 5s;
+    width: 30%;
+}
+h1:hover{
+    background-color: blue;
+    width: 20%;
+   
+}
+body{
+    overflow:scroll;
+}
+.div1{
+    padding: 30px;
+    background-color: blueviolet;
+    width: fit-content;
+}
+.div1 p{
+    color: red;
+}
+.div2 p{
+    color: yellowgreen; 
+}
