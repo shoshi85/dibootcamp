@@ -40,3 +40,22 @@ while (num <5){
     console.log(`hello` + num);
 
 }
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+    
+}
+
+
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+    if(i==5){
+        break
+    }
+}
+
+for (let i = 10; i >= 1; i--) {
+    if(i==5){
+       continue
+    }
+    console.log(i);
+}

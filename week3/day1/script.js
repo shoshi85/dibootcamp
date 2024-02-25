@@ -29,7 +29,7 @@ console.log(staring.indexOf('o'));
 let `e`=3
 let `s`=9
 let `c`=`i`;
-console.log(3 9 (c));
+console.log(3 ,9, (c));
 
 
 
