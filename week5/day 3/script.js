@@ -21,7 +21,3 @@ function addline() {
 let button2 = document.getElementById('button')
 button2.addEventListener('click', addline)
 
-let changep = document.getElementById('onchange')
-function cooco(e) {
-    changep.textContent =
-}
