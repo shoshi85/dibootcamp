@@ -78,16 +78,66 @@
 //     return num*2   
 //  }
 // // eero function  למעלה הדרכים 2במקום  דרך קיצור 
- const times2 = num => num*2
- console.log(times2(25));
+//  const times2 = num => num*2
+//  console.log(times2(25));
 
-// Exercise
-const calculator = (num1 , num2, sign)=>
-    sign == `+` ? num1 +num2 :
-    sign == `-` ? num1 -num2 :
-    sign == `*` ? num1 *num2 :
-    console.log(`not supported`);
+// // Exercise
+// const calculator = (num1 , num2, sign)=>
+//     sign == `+` ? num1 +num2 :
+//     sign == `-` ? num1 -num2 :
+//     sign == `*` ? num1 *num2 :
+//     console.log(`not supported`);
 
-console.log(calculator(2,5,`*`));
-console.log(calculator(2,5,`-`));
-console.log(calculator(2,5,`+`));
+// console.log(calculator(2,5,`*`));
+// console.log(calculator(2,5,`-`));
+// console.log(calculator(2,5,`+`));
+
+// let arr = [2, 3, 4, 5, 6];
+// arr.forEach((item ,index)=>{
+//     console.log(`number is ${item} 
+//     index is${index}`);
+// arr[index] = arr [index] *2
+// })
+// console.log(arr);
+
+// Exercise 
+// let numbers = [10,11,12,15,20];
+// numbers.forEach((item ,index) => {
+//   if (item % 2== 0) {
+//     console.log(item); 
+// //   }
+// // });
+// numbers.forEach( (num ,index)=> {
+//     num % 2 == 0 ?console.log(num) :   undefined
+// });
+// // console.log(numbers.some((velue, i)=>{
+// //     return (value < 13) 
+// // }));
+
+// //  let iftrue = numbers.some((value ,i)=>{
+// //     return (value < 13)
+// // })
+// // console.log(iftrue);
+
+// let ifallftrue = numbers.every((value ,i)=>{
+//     return (value > 5)
+// // })
+// // console.log(ifallftrue);
+
+// // Exercise
+// let  words = ["wow","hey","bye"];
+// let ifwords= words.some((value ,i)=>{
+//     return(` value[0] =='h'`)
+// })
+// console.log(ifwords);
+
+// // Exercise2
+// let words2 = ["hello","hey","hola"];
+// let ifallwords = words2.every((value ,i)=>{
+//         return (`value [0] =='h'`)
+//     })
+//     console.log(ifallwords);
+ 
+// Includes
+// const fruits = ["banana" ,"qrange", "apple","mango"]
+// console.log(fruits.includes('banana',0));
