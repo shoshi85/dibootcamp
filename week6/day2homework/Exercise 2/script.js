@@ -9,5 +9,5 @@ function myMove(params) {
         }
         redbox.style.left =`${fromleft}px`
         fromleft++
-    },1);
+    },1); 
 }
